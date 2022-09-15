@@ -36,7 +36,7 @@
 
 <style>
   #quizrp>* {
-    margin: unset;
+    margin: 10px 0px 10px 0px;
   }
 
   #quizrp a {
@@ -53,22 +53,22 @@
 
   #quizrp .report span.success,
   #quizrp .hint span.success {
-    color: #A1F7B5;
+    color: green;
   }
 
   #quizrp .report span:not(.success),
   #quizrp .hint span:not(.success) {
-    color: gold;
+    color: red;
   }
 
   #quizrp .auto span.enable:after {
     content: "開啟";
-    color: #A1F7B5;
+    color: green;
   }
 
   #quizrp .auto span:not(.enable):after {
     content: "關閉";
-    color: gold;
+    color: red;
   }
 
   #quizrp .original>div {
@@ -82,14 +82,14 @@
   }
 
   #quizrp .original .correct {
-    color: #A1F7B5;
+    color: green;
     font-weight: bold;
     text-decoration: none;
   }
 
   #quizrp .original .wrong,
   .BH-qabox1 .wrong {
-    color: gold;
+    color: red;
     text-decoration: line-through;
   }
 </style>
